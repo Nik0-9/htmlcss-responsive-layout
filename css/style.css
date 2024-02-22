@@ -42,7 +42,7 @@ body {
     color: black;
 }
 
-h3 {
+h4 {
     padding: 20px 0;
 }
 
@@ -131,6 +131,10 @@ section {
     align-items: center;
 }
 
+.dir-column{
+    flex-direction: column;
+}
+
 /* header */
 
 header {
@@ -165,6 +169,19 @@ main img{
 #demo .fa-solid{
     font-size: 3em;
 }
+
+#demo-phone{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#demo .container>.card{
+    padding-bottom: 0;
+}
+
+span{
+    margin: 20px 0;
+}
 /* footer */
 footer {
     background-color: var(--color-footer-bg);
@@ -174,4 +191,19 @@ footer {
 
 footer p {
     margin-bottom: 20px;
+}
+
+/* media query */
+
+@media screen and (min-width: 1200px){
+    #demo .container>.card{
+        display: flex;
+    }
+    .demo-left{
+        width:60%;
+        padding-bottom: 20px;
+    }
+    .demo-right{
+        width: 40%;
+    }
 }
