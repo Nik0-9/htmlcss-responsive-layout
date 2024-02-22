@@ -1,0 +1,177 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+img{
+    display: block;
+}
+
+/* general */
+
+:root {
+    --color-header: #0084fd;
+    --color-odd-bg: #ffffff;
+    --color-even-bg: #9792e4;
+    --color-contrast: #b5ddff;
+    --color-footer-bg: #333333;
+    --color-color-h1: #fdc15f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background: var(--color-odd-bg);
+    color: black;
+}
+
+h3 {
+    padding: 20px 0;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+/* utility */
+/* text */
+.txt-white {
+    color: var(--color-odd-bg);
+}
+
+.txt-black {
+    color: black;
+}
+
+.txt-lilla {
+    color: var(--color-even-bg);
+}
+
+.txt-sky {
+    color: var(--color-header);
+}
+
+/* border */
+.small-rounded {
+    border-radius: 20px;
+}
+
+.big-rounded {
+    border-radius: 40px;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+.container {
+    width: 100%;
+    padding: 20px;
+}
+/* background */
+.even {
+    background-color: var(--color-even-bg);
+}
+.bg-contrast{
+    background-color: var(--color-contrast);
+}
+
+/* button */
+.btn {
+    border-radius: 30px;
+    background-color: var(--color-odd-bg);
+    padding: 6px 12px;
+}
+.btn-blue{
+    background-color: var(--color-header);
+}
+/* utility */
+.card {
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+
+section {
+    padding: 20px;
+    scroll-margin-top: 70px;
+}
+
+/* flex utility */
+.d-flex {
+    display: flex;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.align-center{
+    align-content: center;
+    align-items: center;
+}
+
+/* header */
+
+header {
+    background-color: var(--color-header);
+    color: var(--color-odd-bg);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+header nav ul{
+    display: none;
+}
+
+/* main */
+main {
+    margin-top: 70px;
+}
+
+main img{
+    width: 100%;
+}
+
+/* demo */
+#demo .fa-solid{
+    font-size: 3em;
+}
+/* footer */
+footer {
+    background-color: var(--color-footer-bg);
+    color: var(--color-odd-bg);
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
