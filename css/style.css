@@ -104,6 +104,11 @@ p {
 .btn-blue{
     background-color: var(--color-header);
 }
+
+.btn-lilla{
+    background-color: var(--color-even-bg);
+    padding: 12px 40px;
+}
 /* utility */
 .card {
     padding:20px;
@@ -191,9 +196,7 @@ span{
 }
 
 /* testimonials */
-h2{
-    color: var(--color-even-bg);
-}
+
 .box-img{
     width:40%;
     aspect-ratio: 1 / 1;
@@ -206,9 +209,36 @@ h2{
     object-fit: cover;
 }
 
+#testimonials h2{
+    padding: 20px 0;
+}
+
 #testimonials h2, p{
     padding: 20px 0;
 }
+
+/* benefits */
+
+#benefits h2{
+    padding: 20px;
+}
+
+#benefits h3, h4{
+    color: var(--color-even-bg);
+}
+
+#benefits h3{
+    font-size: 3em;
+}
+
+#benefits h4{
+    font-size: 2em;
+}
+
+
+
+
+
 
 /* footer */
 footer {
