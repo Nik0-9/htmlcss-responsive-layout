@@ -208,6 +208,19 @@ p {
     padding: 20px 0;
 }
 
+#plan h3{
+    font-size: 3em;
+}
+
+.plan-left{
+    width: 100%;
+}
+
+.plan-right{
+    width: 100%;
+}
+
+
 /* testimonials */
 
 .box-img {
@@ -329,21 +342,43 @@ footer p {
         align-self: flex-end;
     }
 
-    .container{
+    #demo .container{
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
     }
 
-    .card{
+    .container{
+        display: flex;
+        flex-wrap: wrap ;
+        gap: 10px;
+    }
+
+    #demo .card{
         width: calc(100% / 3 - 10px);
     }
 
-    .card.is-large{
+    #demo .card.is-large{
         width: calc(100% / 3 * 2 - 10px);
     }
 
-    
+    #testimonials .card{
+        display: flex;
+    }
+
+    #benefits .card{
+        width: calc(100% / 2 - 10px);
+    }
+
+    .about-us-left{
+        width: calc(100% / 2 - 10px);
+    }
+    .about-us-right{
+        width: calc(100% / 2 - 10px);
+    }
+    #call-to-action .container{
+        display: block;
+    }
 }
 
 
