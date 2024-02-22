@@ -161,6 +161,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
     width: 100%;
     padding: 20px 40px;
     display: flex;
@@ -282,7 +283,22 @@ p {
 
 /* call to action */
 
+h1{
+    color: var(--color-color-h1);
+    font-size: 5em;
+}
 
+#call-to-action span{
+    font-size: 1.5em;
+}
+
+#call-to-action h2{
+    font-size: 3em;
+}
+
+.btn-padding{
+    padding: 30px 80px;
+}
 
 /* footer */
 footer {
