@@ -91,6 +91,9 @@ p {
 .bg-contrast{
     background-color: var(--color-contrast);
 }
+.bg-white{
+    background-color: var(--color-odd-bg);
+}
 
 /* button */
 .btn {
@@ -140,7 +143,6 @@ section {
 header {
     background-color: var(--color-header);
     color: var(--color-odd-bg);
-    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -182,6 +184,12 @@ main img{
 span{
     margin: 20px 0;
 }
+
+/* plan */
+#plan img, h3, p{
+    padding: 20px 0;
+}
+
 /* footer */
 footer {
     background-color: var(--color-footer-bg);
