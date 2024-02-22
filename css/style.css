@@ -90,6 +90,11 @@ p {
     padding: 20px;
 }
 
+.small-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
 /* background */
 .even {
     background-color: var(--color-even-bg);
@@ -212,13 +217,13 @@ p {
     font-size: 3em;
 }
 
-.plan-left{
+/* .plan-left{
     width: 100%;
 }
 
 .plan-right{
     width: 100%;
-}
+} */
 
 
 /* testimonials */
@@ -310,7 +315,7 @@ h1{
 }
 
 .btn-padding{
-    padding: 30px 80px;
+    padding: 15px 40px;
 }
 
 /* footer */
@@ -383,5 +388,22 @@ footer p {
 
 
 @media screen and (min-width: 1200px) {
-   
+    header nav ul{
+        display: flex;
+        gap: 10px;
+    }
+
+    nav .fa-solid{
+        display: none;
+    }
+    
+   .plan-left{
+    width: 48%;
+   }
+   .plan-right{
+    width: 48%;
+   }
+   #benefits .card{
+    width: calc(100% / 3 - 10px);
+    }
 }
