@@ -370,6 +370,10 @@ footer p {
         display: flex;
     }
 
+    .txt-left{
+        text-align: left;
+    }
+
     #benefits .card{
         width: calc(100% / 2 - 10px);
     }
@@ -379,6 +383,7 @@ footer p {
     }
     .about-us-right{
         width: calc(100% / 2 - 10px);
+        
     }
     #call-to-action .container{
         display: block;
@@ -387,10 +392,13 @@ footer p {
 
 
 @media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1160px;
+        margin: 0 auto;
+    }
     header nav ul{
         display: flex;
-        gap: 10px;
-        
+        gap: 10px; 
     }
 
     nav .fa-solid{
