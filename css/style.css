@@ -11,6 +11,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--color-odd-bg);
 }
 
 .debug {
@@ -176,6 +177,7 @@ header {
 
 /* header */
 header nav ul {
+    
     display: none;
 }
 
@@ -194,7 +196,7 @@ main img {
 }
 
 #demo-phone {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -217,14 +219,11 @@ p {
     font-size: 3em;
 }
 
-/* .plan-left{
-    width: 100%;
+#plan span{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 20px;
 }
-
-.plan-right{
-    width: 100%;
-} */
-
 
 /* testimonials */
 
@@ -391,6 +390,7 @@ footer p {
     header nav ul{
         display: flex;
         gap: 10px;
+        
     }
 
     nav .fa-solid{
