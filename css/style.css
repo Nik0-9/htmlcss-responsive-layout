@@ -371,6 +371,7 @@ footer p {
     }
 
     .txt-left{
+        padding: 10px 20px;
         text-align: left;
     }
 
@@ -405,11 +406,19 @@ footer p {
         display: none;
     }
     
+    #plan>div{
+        display: flex;
+        align-items: flex-end;
+    }
    .plan-left{
-    width: 48%;
+    width: 45%;
    }
    .plan-right{
-    width: 48%;
+    width: 45%;
+   }
+   .plan-right img{
+    width: 50%;
+    
    }
    #benefits .card{
     width: calc(100% / 3 - 10px);
